@@ -1,0 +1,28 @@
+site_name: SD.Next Docs
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/vladmandic/automatic
+repo_name: vladmandic/automatic
+docs_dir: wiki
+
+theme:
+  name: material
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/emoticon-sad
+        name: Switch to dark mode
+      primary: teal
+      accent: deep purple
+    
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/emoticon-happy
+        name: Switch to light mode
+      primary: indigo
+      accent: deep purple
+    
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
