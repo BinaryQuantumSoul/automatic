@@ -14,15 +14,15 @@ theme:
         icon: material/emoticon-sad
         name: Switch to dark mode
       primary: teal
-      accent: deep purple
+      accent: pink
     
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/emoticon-happy
         name: Switch to light mode
-      primary: indigo
-      accent: deep purple
+      primary: green
+      accent: yellow
     
   logo: assets/favicon.svg
   favicon: assets/favicon.svg
